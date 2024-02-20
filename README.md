@@ -1,2 +1,3 @@
 # Widgets.MembersOnly
-Grandnode2  Plugin Locked Store Password
+Grandnode2 2.2
+Plugin Locked Store Password

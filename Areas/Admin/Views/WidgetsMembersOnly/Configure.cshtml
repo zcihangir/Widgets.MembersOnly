@@ -1,0 +1,18 @@
+﻿@model ConfigurationModel
+@inject AdminAreaSettings adminAreaSettings
+@{
+    Layout = "_ConfigurePlugin";
+}
+@{
+    ViewBag.Title = Loc["Widgets.MembersOnly.Manage"];
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="x_panel light form-fit">   
+            <div class="x_content form">
+                <partial name="_Settings.cshtml" model="Model" />
+            </div>
+        </div>
+    </div>
+</div>
